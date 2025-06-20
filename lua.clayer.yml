@@ -1,0 +1,43 @@
+layer:
+# A layer is a collection of pre-configured source files or components
+  type: Component
+  description: Lua layer
+
+  add-path:
+    - ./src
+
+  groups:
+    - group: lua
+      files:
+        - file: ./src/lapi.c
+        - file: ./src/lauxlib.c
+        - file: ./src/lbaselib.c
+        - file: ./src/lcode.c
+        - file: ./src/lcorolib.c
+        - file: ./src/lctype.c
+        - file: ./src/ldblib.c
+        - file: ./src/ldebug.c
+        - file: ./src/ldo.c
+        - file: ./src/ldump.c
+        - file: ./src/lfunc.c
+        - file: ./src/lgc.c
+        - file: ./src/linit.c
+        - file: ./src/liolib.c
+        - file: ./src/llex.c
+        - file: ./src/lmathlib.c
+        - file: ./src/lmem.c
+        - file: ./src/loadlib.c
+        - file: ./src/lobject.c
+        - file: ./src/lopcodes.c
+        - file: ./src/loslib.c
+        - file: ./src/lparser.c
+        - file: ./src/lstate.c
+        - file: ./src/lstring.c
+        - file: ./src/lstrlib.c
+        - file: ./src/ltable.c
+        - file: ./src/ltablib.c
+        - file: ./src/ltm.c
+        - file: ./src/lundump.c
+        - file: ./src/lutf8lib.c
+        - file: ./src/lvm.c
+        - file: ./src/lzio.c
