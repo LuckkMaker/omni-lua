@@ -1,6 +1,6 @@
 layer:
 # A layer is a collection of pre-configured source files or components
-  type: Component
+  type: LUA
   description: Lua layer
 
   add-path:
