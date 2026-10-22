@@ -1,0 +1,7 @@
+name: lua
+build:
+  cmake: .
+  kconfig: Kconfig
+enable: LUA
+settings:
+  layer: lua.clayer.yml

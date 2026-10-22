@@ -1,0 +1,9 @@
+# Lua 模块的 Kconfig 符号（由 omni/Kconfig.modules 引入）。
+#
+# 符号名与从 omni/modules/Kconfig 搬出前保持一致，配置无需迁移。
+
+config LUA
+    bool "Lua Scripting Engine"
+    default n
+    help
+        Enable Lua scripting engine for running Lua scripts on the device.
